@@ -3,6 +3,8 @@
 #include "login.h"
 #include "display.h"
 #include "aksi.h"
+#include "admin/admin.h"
+#include "user/user.h"
 
 // Daftar pengguna
 User users[MAX_USERS] = {
@@ -43,6 +45,7 @@ void checkLogin() {
                 
             } else if (strcmp(currentUser.role, "user") == 0) {
                 printCenteredBorder(curUserName);
+                showUserMenu();
                 
             }
             return; // Keluar 

@@ -5,7 +5,7 @@
 void printBorder() {
     printf("||================================================================||\n");
     printf("||                      Selamat Datang :)                         ||\n");
-    printf("||                 di Perpustakaan Digital Mini                   ||\n");
+    printf("||                 di Perpustakaan Nirmala Delima                 ||\n");
     printf("||================================================================||\n");
 }
 
@@ -48,56 +48,11 @@ void printCenteredBorder(const char *text) {
     printf("||\n");
 }
 
-void showAdminMenu(){
-    printSubBorder("Menu Admin");
-    printf("||================================================================||\n");
-    printf("|| 1. Kelola Buku                                                 ||\n");
-    printf("|| 2. Kelola User                                                 ||\n");
-    printf("|| 3. Keluar                                                      ||\n");
-    printf("||================================================================||\n");
 
-    int pilihMenu;
-    printf("\n|| pilih menu : ");
-    scanf("%d", &pilihMenu);
-    getchar();
 
-    switch (pilihMenu)
-    {
-    case 1 :
-        break;
-    
-    default:
-        printf(" Pilihan tidak valid, tolong isi input dengan ketentuan yang ada");
-        showAdminMenu();
-        break;
-    }
-}
 
-void showUserMenu(){
-    printSubBorder("Menu User");
-    printf("||================================================================||\n");
-    printf("|| 1. List Buku                                                   ||\n");
-    printf("|| 2. Pinjam Buku                                                 ||\n");
-    printf("|| 3. Kembalikan Buku                                             ||\n");
-    printf("|| 4. History Peminjaman                                          ||\n");
-    printf("|| 5. Keluar                                                      ||\n");
-    printf("||================================================================||\n");
 
-    int pilihMenu;
-    printf("\n|| pilih menu : ");
-    scanf("%d", &pilihMenu);
-    getchar();
-    switch (pilihMenu)
-    {
-    case 1 :
-        break;
-    
-    default:
-        printf(" Pilihan tidak valid, tolong isi input dengan ketentuan yang ada");
-        showUserMenu();
-        break;
-    }
-}
+
 
 
 

@@ -2,7 +2,7 @@
 TARGET = Perpustakaan
 
 # Daftar file sumber
-SRC = main.c display.c login.c aksi.c
+SRC = main.c display.c login.c aksi.c admin/admin.c user/user.c buku/buku.c
 
 # Compiler dan opsi kompilasi
 CC = gcc

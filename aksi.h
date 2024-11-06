@@ -4,5 +4,6 @@
 #include <stdbool.h>
 
 bool konfirmasi();
+int selectMenu();
 
 #endif

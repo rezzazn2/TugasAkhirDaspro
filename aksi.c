@@ -19,3 +19,11 @@ bool konfirmasi() {
             return konfirmasi();
     }
 }
+
+int selectMenu(){
+    int num;
+    scanf("%d", &num);
+    getchar();
+    return num;
+}
+
